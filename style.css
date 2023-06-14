@@ -21,7 +21,6 @@ body{
     margin-left: 20px;
 }
 .encriptarIn{
-    height: 75vh;
     padding: 5%;
     gap: 20px;
     display: flex;
@@ -128,9 +127,6 @@ button{
     }
 }
 @media (width > 1020px) {
-    *{
-        /* border: 1px solid black; */
-    }
     section{
         display: flex;
         justify-content: space-around;
