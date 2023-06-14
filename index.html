@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="icon" href="./img/Top.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./img/Top.svg" alt="Logo" class="aluraIcono">
+    </header>
+    <section>
+        <div class="encriptarIn">
+            <textarea name="textIn" class="textIn" cols="30" rows="10" id="textIn"
+                placeholder="Ingrese el texto aqui"></textarea>
+            <div class="botones">
+                <p class="advertencia"><img src="./img/bi_exclamation-circle-fill.svg" alt="!" class="icono"> Solo
+                    letras minusculas y
+                    acentos</p>
+                    <button id="encriptar" class="botonAzul">Encriptar</button>
+                    <button id="desencriptar" class="botonBlanco">Desencriptar</button>
+            </div>
+        </div>
+        <div class="encriptarOut">
+            <img src="./img/Muñeco.svg" alt="muñeco" class="muneco sinTexto">
+            <h3 class="sinTexto">Ningún mensaje fue encontrado</h3>
+            <p class="sinTexto">Ingresa el texto que desees encriptar o desencriptar</p>
+            <textarea name="" id="textOut" cols="30" rows="8" class="conTexto ocultar textOut" disabled></textarea>
+            <button id="copiar" class="conTexto ocultar botonBlanco">Copiar</button>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
